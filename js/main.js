@@ -62,7 +62,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 
     // Here, you can add code to send the form data to your server using fetch or XMLHttpRequest
     // Example (assuming you have an endpoint to handle form submission):
-    /*
+    
     fetch('https://your-server-endpoint.com/contact', {
         method: 'POST',
         headers: {
@@ -79,7 +79,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         console.error('Error:', error);
         alert('There was an error sending your message. Please try again later.');
     });
-    */
+    
 
     // Clear the form
     document.getElementById('contactForm').reset();
